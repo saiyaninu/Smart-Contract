@@ -1,4 +1,7 @@
-// SPDX-License-Identifier: Unlicensed
+/**
+ *Submitted for verification at BscScan.com on 2021-05-24
+*/
+
 pragma solidity ^0.8.4;
 
 /**
@@ -762,7 +765,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract Saiyan Inu is Context, IERC20, Ownable {
+contract SaiyanInu is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -792,7 +795,7 @@ contract Saiyan Inu is Context, IERC20, Ownable {
     uint256 public _charityFee = 2;
     uint256 private _previousCharityFee = _charityFee;
 
-    uint256 public _liquidityFee = 1;
+    uint256 public _liquidityFee = 4;
     uint256 private _previousLiquidityFee = _liquidityFee;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
